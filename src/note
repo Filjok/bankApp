@@ -12,7 +12,9 @@
  -view to component
    --event binding (event name)="funtionname()"
    --event binding using $ event (event name)="funtion name($envent)"
+   --event binding using template rendering variable  #variable _name
 
-2 two way binding 
+ 2 two way binding 
+ - 
 
  
