@@ -1,0 +1,18 @@
+ html to ts 
+ view to component 
+
+ methods used 
+
+ 1 one by binding   --(one way binding )
+ - component to view 
+    --string interpolation {{}}
+    -- property binding   [porperty]="value"
+
+
+ -view to component
+   --event binding (event name)="funtionname()"
+   --event binding using $ event (event name)="funtion name($envent)"
+
+2 two way binding 
+
+ 
