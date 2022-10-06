@@ -1,0 +1,29 @@
+<section>
+
+    <h1>welcome {{user}} </h1>
+    <p >show transaction <a routerLink="/transaction">history</a></p>
+    
+
+
+<div class="deposit" >
+    <form (ngSubmit)="deposit()">
+         <input type="text" placeholder="enter acno" id="acno" [(ngModel)]="acnod" name="acno">
+         <input type="password" placeholder="enter password" id="pass" [(ngModel)]="passd" name="pass">
+         <input type="text" placeholder="amount for deposit" id="amt" [(ngModel)]="amtd" name="amt">
+
+         <button type="submit">deposit</button>
+
+    </form>
+</div>
+<div class="withdraw" >
+    <form (ngSubmit)="withdraw()">
+         <input type="text" placeholder="enter acno" id="acnow" [(ngModel)]="acnow" name="acnow">
+         <input type="password" placeholder="enter password" id="passw" [(ngModel)]="passw" name="passw">
+         <input type="text" placeholder="amount for withdraw" id="amtw" [(ngModel)]="amtw" name="amtw">
+         <button type="submit">withdraw</button>
+
+
+    </form>
+</div>
+</section>
+

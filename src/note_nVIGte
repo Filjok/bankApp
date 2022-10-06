@@ -1,0 +1,13 @@
+for redirection of pages 
+redirection
+
+-method navigateByUrl -- router class method
+
+to use a class in another class is called Dependency Injection  - data sharing between two dependent classes
+
+access specifier -- specify the element as private (if no access specifier is defined it is public)
+
+angular sevices - used to store redundant data base
+-to create angular sevices --- ng g s servicename
+ 
+ to reduce calling of api multiple times in components  its is called in services 

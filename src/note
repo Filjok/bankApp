@@ -15,6 +15,6 @@
    --event binding using template rendering variable  #variable _name
 
  2 two way binding 
- - 
+ - ng model ->  FormsModule
 
  

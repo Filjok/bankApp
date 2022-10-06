@@ -1,3 +1,4 @@
+
 <section class="body">
     <!-- <h1>{{quote}}</h1> -->
     <div class="content">
@@ -27,22 +28,22 @@
                 </svg>
             </div>
             <div class="sign_in">
-                <h1>sign in</h1>
+                <h1>Register</h1>
             </div>
-           <!-- <form method="post" (ngSubmit)="login()"> -->
+           <!-- <form method="get" (ngSubmit)="register()"> -->
                 <div class="input">
     
+                    <input type="text" id="username" placeholder="username" [(ngModel)]="username">
+    
                     <input type="text" id="acntnumber" placeholder="account no" [(ngModel)]="acno">
-                    <input type="password" id="password" placeholder="password" [(ngModel)]="pass" >
+                    <input type="text" id="password" placeholder="password" [(ngModel)]="pass" >
     
                 </div>
                 <div class="btn">
-                    <button type="submit" (click)="login()"><span>login</span></button>
-                </div>
-                <div class="newacnt">
-                    <p>don't have an account? <a routerLink="register">create</a></p>
+                    <button  (click)="register()"><span>register</span></button>
                 </div>
            <!-- </form> -->
+            
 
         </div>
     </div>
